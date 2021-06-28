@@ -37,7 +37,7 @@ Olimpia Milano - Cantù | 55-60 -->
     echo "<ul>";
         for ($i=0; $i < count($partite); $i++) { 
             ["squadraCasa" => $squadraCasa, "squadraOspite" => $squadraOspite, "squadraCasaPunti" => $puntiCasa, "squadraOspitePunti" => $puntiGuest] = $partite[$i];
-            echo "<h1>" . $squadraCasa . " - " . $squadraOspite . " | " . $puntiCasa . " - " . $puntiGuest . "<h1/>";
+            echo "<h1>$squadraCasa - $squadraOspite | $puntiCasa - $puntiGuest <h1/>";
         };
     echo "</ul>";
 ?>

@@ -6,7 +6,6 @@
         $randomNumber = rand(1,100);
         if(!in_array($randomNumber, $randomNumbers))
         $randomNumbers[] = $randomNumber;
-
     }
     var_dump($randomNumbers);
 ?>
